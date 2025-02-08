@@ -1,0 +1,7 @@
+name="puzzle"
+compatibility_date="2025-02-08"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
+
+[env.production.vars]
+NEXTAUTH_URL = "https://puzzle.miandrui.com"
